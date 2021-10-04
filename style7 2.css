@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+
+/*sfondo*/
+body {
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#quadrato {
+  width: 800px;
+  height: 580px;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  margin-left: 250px;
+  margin-top: 20px;
+  display: inline-block;
+  border-radius: 10px;
+  z-index: -1;
+}
+
+
+.contenitore {
+  width: 1000px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/*Header*/
+
+.center-img {
+  text-align: center;
+}
+
+.logo {
+  width: 150px;
+  margin-top: 70px;
+  margin-left: 250px;
+  text-align: center;
+}
+
+.text {
+  margin-left: 250px;
+  text-align: center;
+  font-size: 10px;
+  color: rgb(0, 255, 0);
+}
+
+/*nav*/
+
+.barr {
+  display: inline-block;
+  width: 670px;
+  margin-left: 320px;
+  padding: 5px;
+  text-align: center;
+  background-color: rgb(0, 255, 0);
+}
+
+/*main*/
+
+/*monopattini */
+.checkbox1 {
+  display: inline-block;
+  width: 670px;
+  margin-left: 320px;
+  padding: 5px;
+  color: rgb(255, 255, 255);
+}
+
+.checkbox2 {
+  display: inline-block;
+  font-size: 12px;
+  width: 670px;
+  margin-left: 320px;
+  color: rgb(255, 255, 255);
+}
+
+/*monopattino 1*/
+
+#rettangolo1 {
+  width: 300px;
+  height: 20px;
+  background: orange;
+  display: inline-block;
+  margin-left: 320px;
+  border-radius: 5px;
+}
+
+/*monopattino 2*/
+
+#rettangolo2 {
+  width: 500px;
+  height: 20px;
+  background: rgb(0, 255, 0);
+  display: inline-block;
+  margin-left: 320px;
+  border-radius: 5px;
+}
+
+/*monopattino 3*/
+
+#rettangolo3 {
+  width: 100px;
+  height: 20px;
+  background: red;
+  display: inline-block;
+  margin-left: 320px;
+  border-radius: 5px;
+}
+
+/*footer*/
+
+footer {
+  display: inline-block;
+  font-size: 12px;
+  width: 700px;
+  margin-left: 600px;
+  color: rgb(255, 255, 255);
+}
